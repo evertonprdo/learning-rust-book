@@ -15,7 +15,7 @@ fn main() {
         println!("{i}. {}-bit", bit_length);
     }
 
-    let bit_length = stdin_number(0..5);
+    let bit_length = stdin_number(0..3);
 
     println!(
         "Calculating range of signed {}-bit integer",
