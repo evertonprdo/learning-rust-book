@@ -1,6 +1,6 @@
 use std::{io, ops::Range};
 
-// The first goal is to compute the bounds of a signed bit-{x}
+// The first goal is to compute the bounds of a signed or unsigned bit-{x}
 // currently it can compute up to 32 bits
 // The formula supports more bits, but to print a larger bound, another approach will be needed
 
@@ -60,7 +60,7 @@ fn stdin_number(range: Range<usize>) -> usize {
 }
 
 fn calculate_unsigned_range(bit_length: &u32) -> (i64, i64) {
-    return (0_i64, 2_i64.pow(*bit_length) - 1);
+    return (0, 2_i64.pow(*bit_length) - 1);
 }
 
 fn calculate_signed_range(bit_length: &u32) -> (i64, i64) {
