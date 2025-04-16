@@ -18,6 +18,6 @@ Since I mentioned AI, here’s one thing I’ve noticed and rarely hear discusse
 
 ## Fundamentals
 
-It might sound cliché, but in every field of knowledge, the importance of mastering the fundamentals is emphasized. In my opinion, Rust can be a bit strict and doesn’t give you much leeway to make mistakes and learn from them later. On one hand, this is great because it naturally prevents bad practices. On the other hand, it’s like being warned not to stick your finger into an electrical outlet: it teaches you very clearly why you shouldn’t try it! Of course, no one wants you to stick your finger into an electrical outlet critical application with 1,000,000 lines (kudos to Rust for that).
+It might sound cliché, but in every field of knowledge, the importance of mastering the fundamentals is emphasized. In my opinion, Rust can be a bit strict and doesn’t give you much leeway to make mistakes and learn from them later. On one hand, this is great because it naturally prevents bad practices. On the other hand, it’s like being warned not to stick your finger into an electrical outlet: it teaches you very clearly why you shouldn’t try it! Of course, no one wants you to stick your finger into an critical application electrical outlet  with 1,000,000 lines (kudos to Rust for that).
 
 In conclusion, after studying Rust a bit, my perspective has shifted in many ways. I’d say, “Rust is a beautiful language that won’t even let you hop on the bike if you don’t know how to pedal.”
